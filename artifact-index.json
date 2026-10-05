@@ -1,0 +1,61 @@
+{
+  "status": "contributor-prepared versioned artifact snapshot; release delivery checked independently",
+  "authorized_repository": "da-qing-wa/flax-openrsi-task",
+  "intended_prerelease_tag": "flax-loss-public-reference-v1-artifacts-v1",
+  "upstream_revision": "42a10303a7126d411155e6e69447e449e2b23a9f",
+  "protocol_sha256": "64b1fcd05eb018a9f903997ac3527fcb0536792214fd62818b668d4ab6201201",
+  "cache_sha256": "6622009ab767a0d2db5d40a5e6efa577820569ed88a7dca804ac0d4c09db7a8c",
+  "release_assets": [
+    {
+      "filename": "task-source-manifest-cache.tar.gz",
+      "bytes": 4526332,
+      "sha256": "12bd55f85f419ab748ee3837017b5a96185fc9ac3588e4b8076d84b46aff31b8",
+      "role": "task-owner source/cache distribution including public evaluator/roster"
+    },
+    {
+      "filename": "task-source-manifest-cache.tar.gz.sha256",
+      "bytes": 100,
+      "sha256": "471a5b8972e56125eb1a5a46dc491703f04736a2e8f15bf14bfe6bf850023f8d",
+      "role": "checksum for task-source-manifest-cache.tar.gz"
+    },
+    {
+      "filename": "work-inputs.tar.gz",
+      "bytes": 3577196,
+      "sha256": "3a767617eba31de7aa738f6209315fdd00018be0aa2db59090b36926594ef0c6",
+      "role": "default Work distribution"
+    },
+    {
+      "filename": "work-inputs.tar.gz.sha256",
+      "bytes": 85,
+      "sha256": "337a273d1076f335c49a80e8ddf881864563379f3c0f93eaaa8e552974c15a61",
+      "role": "checksum for work-inputs.tar.gz"
+    },
+    {
+      "filename": "file-inventory.json",
+      "bytes": 9902,
+      "sha256": "d49dd18190798dc1c04dc3e476ab32538de9210bbf24dd09d969510f472080bd",
+      "role": "complete inventory; Work is exactly work/ subset"
+    },
+    {
+      "filename": "protocol.json",
+      "bytes": 904461,
+      "sha256": "64b1fcd05eb018a9f903997ac3527fcb0536792214fd62818b668d4ab6201201",
+      "role": "unchanged frozen protocol"
+    },
+    {
+      "filename": "feature-schema.json",
+      "bytes": 1013,
+      "sha256": "d0d80bd7bebd9a3f8b937595cb86c655d86ab3d0ba878e752662c084037bdf43",
+      "role": "ordered feature schema"
+    },
+    {
+      "filename": "measured-lineage.json",
+      "bytes": 8609,
+      "sha256": "1f0d8f2afd95b69bd41dac52e19a44f6d04ce6b7fdb46b80075dd5217ce336e6",
+      "role": "historical measured tuple and caveats"
+    }
+  ],
+  "default_Work": "work-inputs.tar.gz; do not mount full task-owner archive as Work",
+  "public_evaluator_and_roster": true,
+  "repository_url": "https://github.com/da-qing-wa/flax-openrsi-task"
+}

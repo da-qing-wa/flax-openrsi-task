@@ -1,0 +1,141 @@
+{
+  "score": 85.4842811693254,
+  "checkpoint_sha256": "8f5acee107d94bb258d0346c35d8bb83afefc453d1fff438c0712d03059963f0",
+  "protocol_revision3": {
+    "protocol_id": "flax-loss-public-reference-v1",
+    "protocol_sha256": "64b1fcd05eb018a9f903997ac3527fcb0536792214fd62818b668d4ab6201201",
+    "protected_definition_sha256": "23f14ad31506218b461fb042e7851b32c29d0ed1ddbc3584b6fc873a43e7f45c",
+    "manifests": {
+      "exact_byte_duplicate_groups.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "unused.json": "bb219a6138a28f5c4f8872a937d4e32ed16fdbe028b53cb346eaa06dbb7a6e8c",
+      "counts.json": "2244a36172236d4eaa0568f8429f1efcc56f2c55b92a7febc6cc8958d6479f2d",
+      "duplicates.json": "4f3269bafae119eab0706d81c31940c6c2645de8addf811eb3db6d291ef3dad1",
+      "evaluation.json": "95ea22c2440a5d5ca39a61aa167f7af15e9439b8725e053a7aaec69494212d4d",
+      "train.json": "6d10e966aad4538da7862bb95bf10135c53ef75cf260b3323562b7893639f4a9",
+      "inventory.json": "1d4d260768280825617ca512e2db846dcf8cf818a772c193c81aeaa5654c4f48",
+      "validation.json": "822f1ed73def26b6375fb35bef6edf0984168d3131d1be57871e7a945c3baf11",
+      "exposure.json": "1d4d260768280825617ca512e2db846dcf8cf818a772c193c81aeaa5654c4f48",
+      "development.json": "63b57d801ce23ff5995c48e3ff26adc8b8bb57da9f3a13a55362cf930dab84e2"
+    },
+    "evaluator_hashes": {
+      "package.py": "cba1fb95f8693372e4ddfc890b970394fda034352d4417a80d42f67946ae74ae",
+      "supervision.py": "c2ccb3763a1a73ceeec3cc0acd0f3e1abbc5c6df5936e937964eb4244a389c65",
+      "train.py": "11cdda2ada789b446b1c19ccb05975b27f949d334dca55717d10c95b7594e392",
+      "evaluator.py": "45c02017e1a9eb9fce1f86fa41e5fc7669772a21c24089fbf081ef36bd6bbaa7",
+      "cli.py": "4b2c7b8c1dc74ed251f03498409777876b33b11a5bc2ca48b2092da088850b79",
+      "worker.py": "6a722718ff0f31a850b7dc0c51f3bf2e3cb35f4369fa919bb421f6d08b5c910f",
+      "compare_reference.py": "e5ed29492ef573a726e99991cfdfcaaa257c1fba0f60dfb4364d72e0278073ae",
+      "freeze.py": "bf135bf6e0a6a8a10773363f4746809a061b6e7288edd404fb0d661f69096af7",
+      "inventory.py": "ff66798a2b7e53b838718326070f6b15e7cf38397f9eb26dc3471671ce161f95",
+      "preflight.py": "d1ad2249e12457afef5b138be3b817101a73868158526fb216e67a4ba12ec3bc",
+      "smoke.py": "6d4c0a2afd30ff992780bbb2dc50ea77e5b01343fb318e7de56a5696c2613df6",
+      "contract.py": "0a42e5976c8f9dcfee6b0fe22a5aa1e71ee70fa7510e79806ccf8f81a1f971ae",
+      "report.py": "14c92bab8f5f97a7d5d544e62ba34f2a8897567a080da754551456ebbcfaf7e6",
+      "preservation.py": "83b5dab49a1689c97f3b3009bfe4181d190a331abb89e6d9ae8bea368ff09016",
+      "test_stage_c.py": "3f5d39fb00c5358e2dd1431dd0a34e17643a630c937c41c4da6260f609e33901",
+      "common.py": "5e571545c406f93bd50eb657928ce946b821af069d7b15d6d51cf911247a6870",
+      "test_stage_b.py": "be19dc3fe8bb9f82eb4ae83ef20a42463d3540523751419e45e9d7a086caa357",
+      "parity.py": "3926b809a67592570eaa1d3da28968f6fb600f8b528ffd02e7b1de4259d6d3bb",
+      "scorer.py": "1f6a4d22c5f44e04e25bbb58c71bdae0675f66791e400fe5a465a575f883923f",
+      "metrics.py": "07e7cfad9804724e21425b28fe45caf4639b4805fae294f0a376cb48f5b35c06"
+    },
+    "timestamp_utc": "2026-10-05T01:20:26Z"
+  },
+  "training_launch_revision2": {
+    "status": "running",
+    "run_id": "reference-01",
+    "candidate_id": "reference-bce",
+    "reference": true,
+    "started_unix": 1791162574.73891,
+    "protocol_sha256": "6411235416b5504d07808e2209aa70c02f84e7ad81c0ec48f909f92afe8e7d61"
+  },
+  "revision2_protocol_sha256": "6411235416b5504d07808e2209aa70c02f84e7ad81c0ec48f909f92afe8e7d61",
+  "unchanged_source_hashes_2_to_3": {
+    "supervision.py": "c2ccb3763a1a73ceeec3cc0acd0f3e1abbc5c6df5936e937964eb4244a389c65",
+    "train.py": "11cdda2ada789b446b1c19ccb05975b27f949d334dca55717d10c95b7594e392",
+    "worker.py": "6a722718ff0f31a850b7dc0c51f3bf2e3cb35f4369fa919bb421f6d08b5c910f",
+    "compare_reference.py": "e5ed29492ef573a726e99991cfdfcaaa257c1fba0f60dfb4364d72e0278073ae",
+    "inventory.py": "ff66798a2b7e53b838718326070f6b15e7cf38397f9eb26dc3471671ce161f95",
+    "preflight.py": "d1ad2249e12457afef5b138be3b817101a73868158526fb216e67a4ba12ec3bc",
+    "smoke.py": "6d4c0a2afd30ff992780bbb2dc50ea77e5b01343fb318e7de56a5696c2613df6",
+    "contract.py": "0a42e5976c8f9dcfee6b0fe22a5aa1e71ee70fa7510e79806ccf8f81a1f971ae",
+    "preservation.py": "83b5dab49a1689c97f3b3009bfe4181d190a331abb89e6d9ae8bea368ff09016",
+    "common.py": "5e571545c406f93bd50eb657928ce946b821af069d7b15d6d51cf911247a6870",
+    "test_stage_b.py": "be19dc3fe8bb9f82eb4ae83ef20a42463d3540523751419e45e9d7a086caa357",
+    "parity.py": "3926b809a67592570eaa1d3da28968f6fb600f8b528ffd02e7b1de4259d6d3bb",
+    "scorer.py": "1f6a4d22c5f44e04e25bbb58c71bdae0675f66791e400fe5a465a575f883923f",
+    "metrics.py": "07e7cfad9804724e21425b28fe45caf4639b4805fae294f0a376cb48f5b35c06"
+  },
+  "changed_source_hashes_2_to_3": {
+    "evaluator.py": {
+      "revision2_sha256": "c370ebac0895680ca56321041b8203dc1f8cd5799f9ccb296989c4b5e75aac17",
+      "revision3_sha256": "45c02017e1a9eb9fce1f86fa41e5fc7669772a21c24089fbf081ef36bd6bbaa7",
+      "revision2_source_snapshot": "NOT FOUND in preserved freeze directories; digest only"
+    },
+    "cli.py": {
+      "revision2_sha256": "b74222019af3dce003a860daefb33e59db0a0dd2e0f5f771bbcae5275097c01a",
+      "revision3_sha256": "4b2c7b8c1dc74ed251f03498409777876b33b11a5bc2ca48b2092da088850b79",
+      "revision2_source_snapshot": "NOT FOUND in preserved freeze directories; digest only"
+    },
+    "freeze.py": {
+      "revision2_sha256": "54e3069954af9474b82c31297367c31d87e7065728087fc0602fa88bf22b0a6d",
+      "revision3_sha256": "bf135bf6e0a6a8a10773363f4746809a061b6e7288edd404fb0d661f69096af7",
+      "revision2_source_snapshot": "NOT FOUND in preserved freeze directories; digest only"
+    },
+    "test_stage_c.py": {
+      "revision2_sha256": "97822a091894abfe0cd3666168a5b7547dcc1cfc0d11c42cb21dc72e9d165d33",
+      "revision3_sha256": "3f5d39fb00c5358e2dd1431dd0a34e17643a630c937c41c4da6260f609e33901",
+      "revision2_source_snapshot": "NOT FOUND in preserved freeze directories; digest only"
+    }
+  },
+  "source_snapshot_gap": "Revision-2 changed files have retained hashes, but historical source bytes were not found. Do not reconstruct them and label the reconstruction historical. The unchanged full-reference branch is reported by Stage C, not newly proven by comparison to unavailable bytes.",
+  "all_400_record_protocol_digests_match_revision3": true,
+  "scientific_contract_unchanged_2_to_3": true,
+  "trainer_manifest_hashes": {
+    "common.py": "5e571545c406f93bd50eb657928ce946b821af069d7b15d6d51cf911247a6870",
+    "train.py": "11cdda2ada789b446b1c19ccb05975b27f949d334dca55717d10c95b7594e392",
+    "execute.sh": "2bcf75d9601067a9bd34e8be45c6f16730241e1cc419781c0019303ab71e8f6a"
+  },
+  "reference_loss": {
+    "path": "stage_c_20261005T005413Z/candidates/reference/loss.py",
+    "sha256": "158a926f2736fc6eac1fe85b98041f2de28b6caf4b3720d4332bab06d120c9f4"
+  },
+  "later_additions": [
+    {
+      "path": "trial_interface.py",
+      "sha256": "6a261b9489e20786c326c73be049ffd1d919385c90d705ccd1170e804810e4ad",
+      "whole_reference_run_through_this_code": false
+    },
+    {
+      "path": "test_trial_interface.py",
+      "sha256": "68165cfc70069d9c5a661aff389cd1620753d757c89b67efac06e89a4fc329b4",
+      "whole_reference_run_through_this_code": false
+    },
+    {
+      "path": "test_grouping_fixture.py",
+      "sha256": "2174502947aa85952db222c8536abbfd8d8e818d1f169c84d2e648d92b457e0d",
+      "whole_reference_run_through_this_code": false
+    },
+    {
+      "path": "final_audit.py",
+      "sha256": "ec188a782159756b745a87b934e632d747a4e4e8e4ebdf551a52dd5813af6bb7",
+      "whole_reference_run_through_this_code": false
+    },
+    {
+      "path": "audit_progress.py",
+      "sha256": "f68e5730530a1dd681772209e3c81759b94af3afabe3e747045f9893c3613ad4",
+      "whole_reference_run_through_this_code": false
+    },
+    {
+      "path": "finish_docs.py",
+      "sha256": "9301fa87925ad3c8e15f51a675fdf3a8e5a2bac4aee74224c5a7676e349297d5",
+      "whole_reference_run_through_this_code": false
+    }
+  ],
+  "known_warning": {
+    "record": "stage_c_20261005T005413Z/runs/reference-01-evaluation/audit/0128/record.json",
+    "native_log": "stage_c_20261005T005413Z/runs/reference-01-evaluation/audit/0128/subprocess-0019.log",
+    "native_log_sha256": "c6c57bf1326b03fe38eef1b3bbc7aa361ad3d40e54cc6f2600fae27125b06d15",
+    "classification": "deadline0; negative residual GNU timeout125; result externally late; unexplained/pre-cutoff125 remains infrastructure"
+  }
+}
