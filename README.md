@@ -1,3 +1,15 @@
+# Flax / OpenRSI contributor task artifacts
+
+**Current contributor execution version: [flax-loss-rules-public-reference-v3-par2](versions/flax-loss-rules-public-reference-v3-par2/README.md)** — joint loss and two-rule co-design, normalized PAR-2 primary utility, durable LOCAL Docker audit retention and the Work setup PATH correction. Source `bc20b17aff54847129ee2e458d152641ca39cac4`; candidate ABI/directory remain v2. Maintainer adoption and benchmark inclusion are **PENDING**.
+
+The [versioned task mirror](versions/flax-loss-rules-public-reference-v3-par2/flax-loss-rules-public-reference-v2/), [exact identity](versions/flax-loss-rules-public-reference-v3-par2/current-version.json), [source inventory](versions/flax-loss-rules-public-reference-v3-par2/source-inventory.json) and [proposal draft](versions/flax-loss-rules-public-reference-v3-par2/proposal-v3-draft.md) align with the frozen task used by the ongoing Sol/high RSI Docker run. Complete contributor reference: **77.0066810889938 PAR-2**, **85.60133621779876 legacy**, **351/400 valid**, 5302.247522 seconds; complete private audit survived normal cleanup. See the version README for measurement scope and chronology. This is not a completed research improvement result or independent maintainer verification.
+
+[Discussion #176](https://github.com/OpenRSI-Foundation/OpenRSI-Index/discussions/176) and the [generated private task repository](https://github.com/OpenRSI-Foundation/flax-loss-rules-public-reference-v2-d176) track official proposal review and code review respectively. The approved Discussion body remains historical v2 until the documented original-session revision flow is completed. No v3 release or benchmark adoption is asserted.
+
+## Historical v1 publication — preserved
+
+The root `artifact-index.json`, `protocol.json`, `measured-lineage.json`, inventories, schema and release assets below remain the original v1 bytes. They are not the current v3 primary metric. [current-version.json](current-version.json) identifies the versioned amendment separately.
+
 # Flax contributor reference-task artifact snapshot
 
 Artifact repository: https://github.com/da-qing-wa/flax-openrsi-task. Versioned contributor prerelease: `flax-loss-public-reference-v1-artifacts-v1`. This is contributor-prepared material, not an accepted OpenRSI task, paper acceptance or Harness-validated portable environment.

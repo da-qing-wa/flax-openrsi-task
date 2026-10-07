@@ -1,0 +1,106 @@
+{
+  "protocol_id": "flax-loss-rules-public-reference-v3-par2",
+  "abi_version": "flax-loss-rules-v2",
+  "loss_abi": "compute_loss-v1",
+  "source_commit": "42a10303a7126d411155e6e69447e449e2b23a9f",
+  "allocation_protocol_sha256": "64b1fcd05eb018a9f903997ac3527fcb0536792214fd62818b668d4ab6201201",
+  "roster_sha256": "95ea22c2440a5d5ca39a61aa167f7af15e9439b8725e053a7aaec69494212d4d",
+  "seed": 0,
+  "training": {
+    "epochs": 301,
+    "batch_size": 16,
+    "shuffle": false,
+    "workers": 3,
+    "optimizer": "Adam",
+    "lr": 0.001,
+    "train_graphs": 176,
+    "validation_graphs": 19,
+    "train_updates": 3311,
+    "train_exposures": 52976,
+    "validation_phases": 31,
+    "validation_forwards": 62,
+    "validation_exposures": 589,
+    "callback_calls": 3373,
+    "checkpoint": "final epoch 300"
+  },
+  "architecture": {
+    "node_features": 23,
+    "edge_features": 24,
+    "layer_size": 16,
+    "message_passing_steps": 3,
+    "dropout": 0
+  },
+  "strata": [
+    "12x12_easy",
+    "12x12_medium",
+    "12x12_hard",
+    "12x12_expert",
+    "15x15_easy",
+    "15x15_medium",
+    "15x15_hard",
+    "15x15_expert"
+  ],
+  "cases_per_stratum": 50,
+  "deadlines": {
+    "12x12": 20,
+    "15x15": 40
+  },
+  "inner_timeout": 40,
+  "guards": {
+    "training": 3600,
+    "ready": 60,
+    "cleanup": 5,
+    "liveness": 0.5,
+    "evaluation": 38300,
+    "trial": 41900
+  },
+  "reward": "100 * mean_8_strata(mean_case_utilities); timely original-task-valid: 1-t/(2*T); ordinary failures: 0",
+  "candidate_failure_scalar": null,
+  "production": "fresh Judge training for every tuple; no checkpoint reuse or paired baseline",
+  "feedback": "aggregate and stratum summaries, safe diagnostics, resources and tuple provenance only",
+  "rule_semantics": "Pinned original interpreters with admission and timed binding checks; no normalization, joins, transitive closure or recovery changes",
+  "parent_protocol_id": "flax-loss-rules-public-reference-v2",
+  "parent_protocol_sha256": "6fd1cceed8c8660fabd4b886a24d1ebb2ee3e815f3f6d44126ffb73d87356a64",
+  "amendment_status": "DRAFT / LOCAL AMENDMENT / MAINTAINER CONFIRMATION PENDING",
+  "selection_chronology": "Selected after observing the generated v2 reference result and headroom block; contributor approval, not preregistration or maintainer approval",
+  "metric": {
+    "metric_id": "stratum-normalized-par2-utility-v1",
+    "failure_penalty": 2,
+    "normalized_cost_valid": "t/T",
+    "normalized_cost_ordinary_failure": 2,
+    "normalized_cost_units": "dimensionless",
+    "normalized_cost_direction": "minimize",
+    "normalized_cost_bounds": [
+      0,
+      2
+    ],
+    "primary_score": "100 * (1 - mean_strata(mean_case_normalized_cost)/2)",
+    "primary_score_direction": "maximize",
+    "primary_score_units": "points on 0-100 scale",
+    "primary_score_bounds": [
+      0,
+      100
+    ],
+    "legacy_secondary": "legacy_par10_utility_score",
+    "equivalence_absolute_tolerance": 1e-10,
+    "precedent": "https://satcompetition.github.io/2024/tracks.html",
+    "adaptation": "per-instance deadline normalization, macro strata, original PDDL and unscored infrastructure are task-specific"
+  },
+  "scoring_code_sha256": {
+    "runtime.py": "47e15a2d7b33fc5cd7bfd9600724fdcfe3cd48d407c8633fa4127cb76e5648cd",
+    "launcher.py": "9ddb1f64c6150cd782931eefd984a3da586a894e90db8de2a3baec65410b4845",
+    "audit.py": "f32126f740666f8aaf20b77ecc0e20515dd61f82e44cf85695e804021b6f1d81",
+    "evaluate.py": "361db9b97e1e571f88760bad95c0b11c6af6c511e858d9b0eca46b51c755286d",
+    "metric_config.py": "698ec6d08726162649699c8c08775bad760572ca3cfa72eed7604e25c6dadbe5",
+    "metrics.py": "881b656715c16400b655bfd4e0f552990f2b074914cbb458ab152d6cdf1416bf"
+  },
+  "audit_retention": {
+    "revision": "private-local-docker-audit-v1",
+    "destination": "/logs/verifier/audit/<task-run-id>",
+    "transport": "existing local Docker Harness private host bind; no Work mount or stdout export",
+    "completion": "fsynced atomic inventory and complete/partial marker before temporary deletion",
+    "failure": "infrastructure-unscored; scientific outcome kept separately; unexported scratch not deleted",
+    "limitations": "shared root capabilities remain; native cluster backend deletes verifier logs and is not supported by this retention claim",
+    "timing": "original GO/VAL bounds retained; persistent log writes remain timed; post-case fsync/export counts toward full trial"
+  }
+}

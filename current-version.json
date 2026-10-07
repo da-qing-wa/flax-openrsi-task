@@ -1,0 +1,9 @@
+{
+  "current_contributor_version": "flax-loss-rules-public-reference-v3-par2",
+  "status": "ACTIVE CONTRIBUTOR REVISION; MAINTAINER ADOPTION AND BENCHMARK INCLUSION PENDING",
+  "source_commit": "bc20b17aff54847129ee2e458d152641ca39cac4",
+  "version_directory": "versions/flax-loss-rules-public-reference-v3-par2",
+  "identity": "versions/flax-loss-rules-public-reference-v3-par2/current-version.json",
+  "historical_v1_artifacts": "artifact-index.json",
+  "historical_release": "flax-loss-public-reference-v1-artifacts-v1"
+}

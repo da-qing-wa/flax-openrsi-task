@@ -1,0 +1,62 @@
+{
+  "protocol_id": "flax-loss-rules-public-reference-v2",
+  "abi_version": "flax-loss-rules-v2",
+  "loss_abi": "compute_loss-v1",
+  "source_commit": "42a10303a7126d411155e6e69447e449e2b23a9f",
+  "allocation_protocol_sha256": "64b1fcd05eb018a9f903997ac3527fcb0536792214fd62818b668d4ab6201201",
+  "roster_sha256": "95ea22c2440a5d5ca39a61aa167f7af15e9439b8725e053a7aaec69494212d4d",
+  "seed": 0,
+  "training": {
+    "epochs": 301,
+    "batch_size": 16,
+    "shuffle": false,
+    "workers": 3,
+    "optimizer": "Adam",
+    "lr": 0.001,
+    "train_graphs": 176,
+    "validation_graphs": 19,
+    "train_updates": 3311,
+    "train_exposures": 52976,
+    "validation_phases": 31,
+    "validation_forwards": 62,
+    "validation_exposures": 589,
+    "callback_calls": 3373,
+    "checkpoint": "final epoch 300"
+  },
+  "architecture": {
+    "node_features": 23,
+    "edge_features": 24,
+    "layer_size": 16,
+    "message_passing_steps": 3,
+    "dropout": 0
+  },
+  "strata": [
+    "12x12_easy",
+    "12x12_medium",
+    "12x12_hard",
+    "12x12_expert",
+    "15x15_easy",
+    "15x15_medium",
+    "15x15_hard",
+    "15x15_expert"
+  ],
+  "cases_per_stratum": 50,
+  "deadlines": {
+    "12x12": 20,
+    "15x15": 40
+  },
+  "inner_timeout": 40,
+  "guards": {
+    "training": 3600,
+    "ready": 60,
+    "cleanup": 5,
+    "liveness": 0.5,
+    "evaluation": 38300,
+    "trial": 41900
+  },
+  "reward": "100 * mean_8_strata(mean_case_utilities); valid by deadline: 1-t/(10*T); ordinary failures: 0",
+  "candidate_failure_scalar": null,
+  "production": "fresh Judge training for every tuple; no checkpoint reuse or paired baseline",
+  "feedback": "aggregate and stratum summaries, safe diagnostics, resources and tuple provenance only",
+  "rule_semantics": "Pinned original interpreters with admission and timed binding checks; no normalization, joins, transitive closure or recovery changes"
+}

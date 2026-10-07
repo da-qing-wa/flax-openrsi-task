@@ -1,0 +1,341 @@
+{
+  "source_commit": "bc20b17aff54847129ee2e458d152641ca39cac4",
+  "scope": "67 tracked task files copied byte-for-byte; excludes RSI-Harness, native trajectories, credentials and private audit",
+  "files": {
+    "flax-loss-rules-public-reference-v2/LICENSE-SCOPE.md": {
+      "sha256": "892169ce0983a6f55c13fa695cefc890ea7a05e36bac94aa04623f8e455a4f03",
+      "bytes": 1374,
+      "git_mode": "100644"
+    },
+    "flax-loss-rules-public-reference-v2/LICENSE.original-overlay": {
+      "sha256": "426c1bc669e450b1ce6b14a865c9dd6f8ff1e50037acb0971392722424fa611f",
+      "bytes": 1065,
+      "git_mode": "100644"
+    },
+    "flax-loss-rules-public-reference-v2/README.md": {
+      "sha256": "387caffd28a82ab8c07786d714ed4709407f063d0880eb914e27c22382965a9e",
+      "bytes": 23370,
+      "git_mode": "100644"
+    },
+    "flax-loss-rules-public-reference-v2/authoring/GENERATION.md": {
+      "sha256": "630f9d31c370dd3effd2d6dbf0207a4f1aaedca4a35d7d83a0e84b1a3987aeb5",
+      "bytes": 12170,
+      "git_mode": "100644"
+    },
+    "flax-loss-rules-public-reference-v2/authoring/check_native_closure.py": {
+      "sha256": "a553705030652cc9690e613737641f36e3a7edf672100f637c5b2d8388708565",
+      "bytes": 4801,
+      "git_mode": "100644"
+    },
+    "flax-loss-rules-public-reference-v2/authoring/check_par2_independent.py": {
+      "sha256": "f3ca04744e9fa8f7c5d737ae4a002a404f1dfed671eeea1ecb9434de0e98cb74",
+      "bytes": 3199,
+      "git_mode": "100644"
+    },
+    "flax-loss-rules-public-reference-v2/authoring/container_audit_after_cleanup.py": {
+      "sha256": "9a13f88274a8138dad3309736198f82ecbc629b956b7a2635dcbc6664d0edac2",
+      "bytes": 1468,
+      "git_mode": "100644"
+    },
+    "flax-loss-rules-public-reference-v2/authoring/container_audit_lifecycle.py": {
+      "sha256": "b2d0a70ea180205647e9f7ebff8ba2644df8b182b27175440ab0afbda5dd0cdb",
+      "bytes": 3441,
+      "git_mode": "100644"
+    },
+    "flax-loss-rules-public-reference-v2/authoring/rescore_par2.py": {
+      "sha256": "3cb58bff2635714e3ea72e7a9bcd03206d53bc1b1471904efc21560bd3c5fff1",
+      "bytes": 9339,
+      "git_mode": "100644"
+    },
+    "flax-loss-rules-public-reference-v2/authoring/static_checks.py": {
+      "sha256": "341896eae5d4abda31bdd9c7f2c30e30fe0ca640f16b4e73bf313c02b84586fe",
+      "bytes": 9789,
+      "git_mode": "100644"
+    },
+    "flax-loss-rules-public-reference-v2/authoring/test_audit_retention.py": {
+      "sha256": "0e3a73ba12dfd87ed83ab3bf36bf66d48e71df9ef172c1ca3c97daf4230a386e",
+      "bytes": 21208,
+      "git_mode": "100644"
+    },
+    "flax-loss-rules-public-reference-v2/authoring/test_par2_metric.py": {
+      "sha256": "7a4ca1c960f0e3bb440199bf3e7a6b3eac0dfdbc51d2dc4ad7b2c42be39478b0",
+      "bytes": 14167,
+      "git_mode": "100644"
+    },
+    "flax-loss-rules-public-reference-v2/authoring/verify_audit.py": {
+      "sha256": "53200e97d07d811be41d75450d8bb603e414d40308f0d64c914a42a8101b5396",
+      "bytes": 2094,
+      "git_mode": "100644"
+    },
+    "flax-loss-rules-public-reference-v2/environment/Dockerfile": {
+      "sha256": "933529c0175e8acea94a6f919d1bf6cfefbf6c10208b849ef37462f0a1c5bb88",
+      "bytes": 3712,
+      "git_mode": "100644"
+    },
+    "flax-loss-rules-public-reference-v2/environment/build_assets.py": {
+      "sha256": "077f8ecf2633e43ebc364ea4887b8d849c9224cd32aa69fecd4408c619d7d9e2",
+      "bytes": 1506,
+      "git_mode": "100644"
+    },
+    "flax-loss-rules-public-reference-v2/environment/close_workspace.py": {
+      "sha256": "330d4fe7f75e01080d6d3a207afcb70c42c5eb79ad5d16269adecf5c5b06f3e6",
+      "bytes": 906,
+      "git_mode": "100644"
+    },
+    "flax-loss-rules-public-reference-v2/environment/development-pddl.tar.gz": {
+      "sha256": "3eab73a211362ce2867f0a68a4404e8ceab2dd722151c5d230b33d51973b39bf",
+      "bytes": 435849,
+      "git_mode": "100644"
+    },
+    "flax-loss-rules-public-reference-v2/environment/docker-compose.yaml": {
+      "sha256": "d4dec635e98f8a07a7b1b32daec1921f5262cd1684af8d58cdf1e40e17d55ea7",
+      "bytes": 76,
+      "git_mode": "100644"
+    },
+    "flax-loss-rules-public-reference-v2/environment/flax-dev": {
+      "sha256": "78eb4e129b1ee6cf882b171aa992ba6d1df645e3671a924c53bc189665b486e8",
+      "bytes": 296,
+      "git_mode": "100755"
+    },
+    "flax-loss-rules-public-reference-v2/environment/flax-source.tar.gz": {
+      "sha256": "4ffc0b45f89219e5ffff0a2fed216fba39b6cef0aae5e72d9f026b8208ae3a9e",
+      "bytes": 145628,
+      "git_mode": "100644"
+    },
+    "flax-loss-rules-public-reference-v2/environment/reference.tar.gz": {
+      "sha256": "b93c84f6c25a1c32dd1462bc01144da2b4c1ad995fcf451231e3f5e15c8e1b41",
+      "bytes": 819,
+      "git_mode": "100644"
+    },
+    "flax-loss-rules-public-reference-v2/environment/tools/admission.py": {
+      "sha256": "604a065fd69bff54922a2ef294021bdb4f3e133c44a23b8b720fbcd398dadc5c",
+      "bytes": 13671,
+      "git_mode": "100644"
+    },
+    "flax-loss-rules-public-reference-v2/environment/tools/assets/fixed-inputs.json": {
+      "sha256": "9ee952fc4d499284e23a5e085fe6d45b4b46ddb4069ee26a6e0b7749cde57b1d",
+      "bytes": 92270,
+      "git_mode": "100644"
+    },
+    "flax-loss-rules-public-reference-v2/environment/tools/assets/native-sources.json": {
+      "sha256": "cf5b9d532c931d548f8039e11480d28765af19fccc8c9fb3b520c4bac5f77ad3",
+      "bytes": 138899,
+      "git_mode": "100644"
+    },
+    "flax-loss-rules-public-reference-v2/environment/tools/assets/pristine-workspace.json": {
+      "sha256": "1d23cb42d94101c31abec31bb0e8b9db623a7bc7bfaf00a65cb6fa50b62bc5dd",
+      "bytes": 404,
+      "git_mode": "100644"
+    },
+    "flax-loss-rules-public-reference-v2/environment/tools/dev.py": {
+      "sha256": "66abf295ff40ba5cb9c918f285ad8dc2a4f321b9669d6a31ef59e5b5b9ca8528",
+      "bytes": 7886,
+      "git_mode": "100644"
+    },
+    "flax-loss-rules-public-reference-v2/environment/tools/launcher.py": {
+      "sha256": "9ddb1f64c6150cd782931eefd984a3da586a894e90db8de2a3baec65410b4845",
+      "bytes": 1456,
+      "git_mode": "100644"
+    },
+    "flax-loss-rules-public-reference-v2/environment/tools/metric_config.py": {
+      "sha256": "698ec6d08726162649699c8c08775bad760572ca3cfa72eed7604e25c6dadbe5",
+      "bytes": 378,
+      "git_mode": "100644"
+    },
+    "flax-loss-rules-public-reference-v2/environment/tools/metrics.py": {
+      "sha256": "881b656715c16400b655bfd4e0f552990f2b074914cbb458ab152d6cdf1416bf",
+      "bytes": 7893,
+      "git_mode": "100644"
+    },
+    "flax-loss-rules-public-reference-v2/environment/tools/rule_guard.py": {
+      "sha256": "1143dbfd75f58dafb85c60eb00f183e0025bb318b49968591643d60779ea348c",
+      "bytes": 2462,
+      "git_mode": "100644"
+    },
+    "flax-loss-rules-public-reference-v2/environment/tools/runtime.py": {
+      "sha256": "47e15a2d7b33fc5cd7bfd9600724fdcfe3cd48d407c8633fa4127cb76e5648cd",
+      "bytes": 5924,
+      "git_mode": "100644"
+    },
+    "flax-loss-rules-public-reference-v2/environment/tools/scorer.py": {
+      "sha256": "90a85cf5a3e0bc2a12b481634d97d0261a83e1150a8024948c5805b61bae4b9d",
+      "bytes": 4097,
+      "git_mode": "100644"
+    },
+    "flax-loss-rules-public-reference-v2/environment/tools/selfcheck.py": {
+      "sha256": "57bc9e354e8d36ccd08e880841d1350dac659b850585ed9b6899e34d8d0dcf66",
+      "bytes": 720,
+      "git_mode": "100644"
+    },
+    "flax-loss-rules-public-reference-v2/environment/tools/supervision.py": {
+      "sha256": "2033b87ffcd8e3a901ffcf466fc6418cc49fe97a018bd9aad18bc35b9ef83e64",
+      "bytes": 1444,
+      "git_mode": "100644"
+    },
+    "flax-loss-rules-public-reference-v2/environment/tools/train.py": {
+      "sha256": "458a10aed8d416e7339884d5cf2ead97574ab1c965125cd027bb5ac868a45a47",
+      "bytes": 15986,
+      "git_mode": "100644"
+    },
+    "flax-loss-rules-public-reference-v2/environment/tools/worker.py": {
+      "sha256": "f4488d75fa345c5d5d74f937e55c36765a6d39309bcb4c1640f1b8df850696ff",
+      "bytes": 3888,
+      "git_mode": "100644"
+    },
+    "flax-loss-rules-public-reference-v2/environment/validate-candidate": {
+      "sha256": "700beb74a2c737e1f9a014e44ec1f0523dc08c7e9f0503a6a276ba50b819f6da",
+      "bytes": 302,
+      "git_mode": "100755"
+    },
+    "flax-loss-rules-public-reference-v2/environment/work-inputs.tar.gz": {
+      "sha256": "3a767617eba31de7aa738f6209315fdd00018be0aa2db59090b36926594ef0c6",
+      "bytes": 3577196,
+      "git_mode": "100644"
+    },
+    "flax-loss-rules-public-reference-v2/instruction.md": {
+      "sha256": "8d363b7fe34f32355f8e8de4b7c5fc86aabe5f301d213d0463eaa507a1ced12a",
+      "bytes": 21767,
+      "git_mode": "100644"
+    },
+    "flax-loss-rules-public-reference-v2/solution/solve.sh": {
+      "sha256": "d26237a99180c28085aae2930cdb54adc384177a98cfd25e736bc88ac3dff219",
+      "bytes": 468,
+      "git_mode": "100755"
+    },
+    "flax-loss-rules-public-reference-v2/task.toml": {
+      "sha256": "0b72d62e57ecdc9fa2e305151ade7a4f1f3ee283c2f5ca9a07d160e409be2dd2",
+      "bytes": 1359,
+      "git_mode": "100644"
+    },
+    "flax-loss-rules-public-reference-v2/tests/admission.py": {
+      "sha256": "604a065fd69bff54922a2ef294021bdb4f3e133c44a23b8b720fbcd398dadc5c",
+      "bytes": 13671,
+      "git_mode": "100644"
+    },
+    "flax-loss-rules-public-reference-v2/tests/assets/evaluation.json": {
+      "sha256": "95ea22c2440a5d5ca39a61aa167f7af15e9439b8725e053a7aaec69494212d4d",
+      "bytes": 272239,
+      "git_mode": "100644"
+    },
+    "flax-loss-rules-public-reference-v2/tests/assets/fixed-inputs.json": {
+      "sha256": "9ee952fc4d499284e23a5e085fe6d45b4b46ddb4069ee26a6e0b7749cde57b1d",
+      "bytes": 92270,
+      "git_mode": "100644"
+    },
+    "flax-loss-rules-public-reference-v2/tests/assets/mazenamo.pddl": {
+      "sha256": "2d2ff224dcf3e9e6f7232e3cf9dc8bc2b46d868eddd062a5b7277d87188115bf",
+      "bytes": 14996,
+      "git_mode": "100644"
+    },
+    "flax-loss-rules-public-reference-v2/tests/assets/native-sources.json": {
+      "sha256": "cf5b9d532c931d548f8039e11480d28765af19fccc8c9fb3b520c4bac5f77ad3",
+      "bytes": 138899,
+      "git_mode": "100644"
+    },
+    "flax-loss-rules-public-reference-v2/tests/assets/primary-pddl.tar.gz": {
+      "sha256": "b9deb140af414e68074c6ba94a7c52241f62351ba11ff8165712aba6e6f9bc3f",
+      "bytes": 492648,
+      "git_mode": "100644"
+    },
+    "flax-loss-rules-public-reference-v2/tests/assets/pristine-workspace.json": {
+      "sha256": "1d23cb42d94101c31abec31bb0e8b9db623a7bc7bfaf00a65cb6fa50b62bc5dd",
+      "bytes": 404,
+      "git_mode": "100644"
+    },
+    "flax-loss-rules-public-reference-v2/tests/audit.py": {
+      "sha256": "f32126f740666f8aaf20b77ecc0e20515dd61f82e44cf85695e804021b6f1d81",
+      "bytes": 12228,
+      "git_mode": "100644"
+    },
+    "flax-loss-rules-public-reference-v2/tests/evaluate.py": {
+      "sha256": "361db9b97e1e571f88760bad95c0b11c6af6c511e858d9b0eca46b51c755286d",
+      "bytes": 23272,
+      "git_mode": "100644"
+    },
+    "flax-loss-rules-public-reference-v2/tests/launcher.py": {
+      "sha256": "9ddb1f64c6150cd782931eefd984a3da586a894e90db8de2a3baec65410b4845",
+      "bytes": 1456,
+      "git_mode": "100644"
+    },
+    "flax-loss-rules-public-reference-v2/tests/metric_config.py": {
+      "sha256": "698ec6d08726162649699c8c08775bad760572ca3cfa72eed7604e25c6dadbe5",
+      "bytes": 378,
+      "git_mode": "100644"
+    },
+    "flax-loss-rules-public-reference-v2/tests/metrics.py": {
+      "sha256": "881b656715c16400b655bfd4e0f552990f2b074914cbb458ab152d6cdf1416bf",
+      "bytes": 7893,
+      "git_mode": "100644"
+    },
+    "flax-loss-rules-public-reference-v2/tests/preflight.py": {
+      "sha256": "6956b111b8f7fe242d6ee3b9aea463171ca72d962c830f69757729d5f2798548",
+      "bytes": 1825,
+      "git_mode": "100644"
+    },
+    "flax-loss-rules-public-reference-v2/tests/protocol-v3-par2.json": {
+      "sha256": "8d76ae59eaf5a127c8fb54b3e018ea621c61e1c24c0b48738e2decf5bbf2416c",
+      "bytes": 4427,
+      "git_mode": "100644"
+    },
+    "flax-loss-rules-public-reference-v2/tests/protocol.json": {
+      "sha256": "6fd1cceed8c8660fabd4b886a24d1ebb2ee3e815f3f6d44126ffb73d87356a64",
+      "bytes": 1870,
+      "git_mode": "100644"
+    },
+    "flax-loss-rules-public-reference-v2/tests/provenance/file-inventory.json": {
+      "sha256": "d49dd18190798dc1c04dc3e476ab32538de9210bbf24dd09d969510f472080bd",
+      "bytes": 9902,
+      "git_mode": "100644"
+    },
+    "flax-loss-rules-public-reference-v2/tests/provenance/measured-lineage.json": {
+      "sha256": "1f0d8f2afd95b69bd41dac52e19a44f6d04ce6b7fdb46b80075dd5217ce336e6",
+      "bytes": 8609,
+      "git_mode": "100644"
+    },
+    "flax-loss-rules-public-reference-v2/tests/provenance/protocol-v1.json": {
+      "sha256": "64b1fcd05eb018a9f903997ac3527fcb0536792214fd62818b668d4ab6201201",
+      "bytes": 904461,
+      "git_mode": "100644"
+    },
+    "flax-loss-rules-public-reference-v2/tests/provenance/source-v1.tar.gz": {
+      "sha256": "12bd55f85f419ab748ee3837017b5a96185fc9ac3588e4b8076d84b46aff31b8",
+      "bytes": 4526332,
+      "git_mode": "100644"
+    },
+    "flax-loss-rules-public-reference-v2/tests/rule_guard.py": {
+      "sha256": "1143dbfd75f58dafb85c60eb00f183e0025bb318b49968591643d60779ea348c",
+      "bytes": 2462,
+      "git_mode": "100644"
+    },
+    "flax-loss-rules-public-reference-v2/tests/runtime.py": {
+      "sha256": "47e15a2d7b33fc5cd7bfd9600724fdcfe3cd48d407c8633fa4127cb76e5648cd",
+      "bytes": 5924,
+      "git_mode": "100644"
+    },
+    "flax-loss-rules-public-reference-v2/tests/scorer.py": {
+      "sha256": "90a85cf5a3e0bc2a12b481634d97d0261a83e1150a8024948c5805b61bae4b9d",
+      "bytes": 4097,
+      "git_mode": "100644"
+    },
+    "flax-loss-rules-public-reference-v2/tests/supervision.py": {
+      "sha256": "2033b87ffcd8e3a901ffcf466fc6418cc49fe97a018bd9aad18bc35b9ef83e64",
+      "bytes": 1444,
+      "git_mode": "100644"
+    },
+    "flax-loss-rules-public-reference-v2/tests/test.sh": {
+      "sha256": "ce4f1b711dd66a60923133caf3972b2d56685a47519680c59a3af64e6b622cf4",
+      "bytes": 368,
+      "git_mode": "100755"
+    },
+    "flax-loss-rules-public-reference-v2/tests/train.py": {
+      "sha256": "458a10aed8d416e7339884d5cf2ead97574ab1c965125cd027bb5ac868a45a47",
+      "bytes": 15986,
+      "git_mode": "100644"
+    },
+    "flax-loss-rules-public-reference-v2/tests/worker.py": {
+      "sha256": "f4488d75fa345c5d5d74f937e55c36765a6d39309bcb4c1640f1b8df850696ff",
+      "bytes": 3888,
+      "git_mode": "100644"
+    }
+  }
+}

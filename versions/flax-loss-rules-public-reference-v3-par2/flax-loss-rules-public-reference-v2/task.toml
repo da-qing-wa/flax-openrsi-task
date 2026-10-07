@@ -1,0 +1,42 @@
+schema_version = "1.4"
+
+[task]
+name = "rsi/flax-loss-rules-public-reference-v2"
+version = "1.0.0"
+description = "DRAFT PAR-2 metric amendment for joint loss/rule validated planning efficiency."
+
+[metadata]
+primary_metric = "stratum-normalized-par2-utility-v1"
+execution_protocol = "flax-loss-rules-public-reference-v3-par2"
+amendment_status = "DRAFT LOCAL AMENDMENT; MAINTAINER CONFIRMATION PENDING"
+author_name = "Qiwei Du"
+author_email = "qiweid@sairlab.org"
+category = "ML"
+subcategory = "Training"
+tags = ["autoresearch", "neuro-symbolic-planning", "loss-functions", "abstraction-rules", "cpu"]
+difficulty_explanation = "Local supervised loss and symbolic abstraction interact with downstream plan coverage and latency."
+verification_explanation = "Fresh fixed training, the original ordered 400-case roster, external deadlines, original-instance VAL, and complete-record aggregation."
+expert_time_estimate_hours = 24
+relevant_experience = "Contributor and coauthor of Flax; neuro-symbolic planning research."
+
+[metadata.rsi_harness.verifier]
+gpus = 0
+
+[environment]
+os = "linux"
+cpus = 4
+memory_mb = 8192
+storage_mb = 32768
+build_timeout_sec = 7200
+workdir = "/workspace"
+gpus = 0
+network_mode = "no-network"
+
+[agent]
+timeout_sec = 86400
+network_mode = "no-network"
+
+[verifier]
+timeout_sec = 45000
+network_mode = "no-network"
+environment_mode = "shared"
